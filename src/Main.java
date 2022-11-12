@@ -28,26 +28,35 @@ public class Main {
 
             String s = scanner.nextLine();
 
-            try {
-                Integer.parseInt(s);
-            } catch (NumberFormatException nfe) {
-                System.out.println("Invalid! Try again!");
+            if (!isValid(s)) {
                 continue;
             }
 
             int num = Integer.parseInt(s);
-
-            if(num<0 || num > 10) {
-                System.out.println("Invalid range! Try again!");
-                continue;
-            }
-
             nums.add(num);
         }
 
         scanner.close();
 
         return nums;
+    }
+
+    private static boolean isValid(String s) {
+        try {
+            Integer.parseInt(s);
+        } catch (NumberFormatException nfe) {
+            System.out.println("Invalid! Try again!");
+            return false;
+        }
+
+        int num = Integer.parseInt(s);
+
+        if(num<0 || num > 10) {
+            System.out.println("Invalid range! Try again!");
+            return false;
+        }
+
+        return true;
     }
 
     private static void showNumbers (List<Integer> nums ) {
