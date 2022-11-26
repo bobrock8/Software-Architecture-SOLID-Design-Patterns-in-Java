@@ -1,7 +1,4 @@
 import solid.interfacesegregation.InterfaceSegregation;
-import solid.liskovsubstitution.LiskovSubstitution;
-import solid.openclosed.OpenClosed;
-import solid.singleresposibility.SingleResponsibility;
 
 public class Main {
 
