@@ -1,3 +1,4 @@
+import solid.dependencyinversion.DependencyInversion;
 import solid.interfacesegregation.InterfaceSegregation;
 
 public class Main {
@@ -10,8 +11,9 @@ public class Main {
         // SingleResponsibility singleResponsibility = new SingleResponsibility();
         // OpenClosed openClosed = new OpenClosed();
         // LiskovSubstitution liskovSubstitution = new LiskovSubstitution();
+        // InterfaceSegregation interfaceSegregation = new InterfaceSegregation();
 
-        InterfaceSegregation interfaceSegregation = new InterfaceSegregation();
+        DependencyInversion dependencyInversion = new DependencyInversion();
     }
 
 }

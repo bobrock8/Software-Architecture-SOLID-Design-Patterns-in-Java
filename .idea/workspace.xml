@@ -2,42 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f29e8c31-eb0b-4811-922e-e80946b4bd1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Software-Architecture-SOLID-Design-Patterns-in-Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/dependencyinversion/DependencyInversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/interfacesegregation/CEO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/interfacesegregation/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/interfacesegregation/ICEO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/interfacesegregation/IEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/interfacesegregation/IManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/interfacesegregation/InterfaceSegregation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/interfacesegregation/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/liskovsubstitution/ElectricCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/liskovsubstitution/LiskovSubstitution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/liskovsubstitution/PetrolCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/liskovsubstitution/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/openclosed/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/openclosed/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/openclosed/OpenClosed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/openclosed/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/openclosed/SortingAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/openclosed/SortingProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid/out/production/Solid/solid/singleresposibility/SingleResponsibility.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/dependencyinversion/PayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/dependencyinversion/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/dependencyinversion/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/dependencyinversion/Payoneer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/dependencyinversion/Skrill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/dependencyinversion/WebStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solid/dependencyinversion/DependencyInversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/dependencyinversion/DependencyInversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,17 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -85,5 +73,16 @@
       <updated>1669467035998</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
