@@ -1,7 +1,4 @@
-import designpatterns.creationaldesignpatterns.factorypattern.FactoryPattern;
-import designpatterns.creationaldesignpatterns.singletonpattern.SingletonPattern;
-import solid.dependencyinversion.DependencyInversion;
-import solid.interfacesegregation.InterfaceSegregation;
+import designpatterns.creationaldesignpatterns.prototypepattern.PrototypePepattern;
 
 public class Main {
 
@@ -25,8 +22,15 @@ public class Main {
         // System.out.println("Singleton Design Patterns");
         // SingletonPattern singletonPattern = new SingletonPattern();
 
-        System.out.println("Factory Design Patterns");
-        FactoryPattern factoryPattern = new FactoryPattern();
+        // System.out.println("Factory Design Patterns");
+        // FactoryPattern factoryPattern = new FactoryPattern();
+
+        // System.out.println("Builder Design Patterns");
+        // BuilderPattern builderPattern = new BuilderPattern();
+
+        System.out.println("Prototype Design Patterns");
+        PrototypePepattern prototypePepattern = new PrototypePepattern();
+
     }
 
 }
