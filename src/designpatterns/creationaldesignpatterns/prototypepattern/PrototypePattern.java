@@ -1,8 +1,8 @@
 package designpatterns.creationaldesignpatterns.prototypepattern;
 
-public class PrototypePepattern {
+public class PrototypePattern {
 
-    public PrototypePepattern() {
+    public PrototypePattern() {
 
         Shape square = new Square(10, 5);
         square.draw();

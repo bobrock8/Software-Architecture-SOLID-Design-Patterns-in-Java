@@ -1,4 +1,8 @@
-import designpatterns.creationaldesignpatterns.prototypepattern.PrototypePepattern;
+import designpatterns.behavioraldesignpatterns.commandpattern.CommandPattern;
+import designpatterns.behavioraldesignpatterns.observerpattern.ObserverPattern;
+import designpatterns.behavioraldesignpatterns.strategypattern.StrategyPattern;
+import designpatterns.behavioraldesignpatterns.templatepattern.TemplatePattern;
+import designpatterns.behavioraldesignpatterns.visitorpattern.VisitorPattern;
 
 public class Main {
 
@@ -17,7 +21,7 @@ public class Main {
 
         System.out.println("Design Patterns");
 
-        System.out.println("Creational Design Patterns");
+        // System.out.println("Creational Design Patterns");
 
         // System.out.println("Singleton Design Patterns");
         // SingletonPattern singletonPattern = new SingletonPattern();
@@ -28,8 +32,25 @@ public class Main {
         // System.out.println("Builder Design Patterns");
         // BuilderPattern builderPattern = new BuilderPattern();
 
-        System.out.println("Prototype Design Patterns");
-        PrototypePepattern prototypePepattern = new PrototypePepattern();
+        // System.out.println("Prototype Design Patterns");
+        // PrototypePattern prototypePattern = new PrototypePattern();
+
+        System.out.println("Behavioral Design Patterns");
+
+        System.out.println("Strategy Design Patterns");
+        StrategyPattern strategyPattern = new StrategyPattern();
+
+        System.out.println("Observer Design Patterns");
+        ObserverPattern observerPattern = new ObserverPattern();
+
+        System.out.println("Command Design Patterns");
+        CommandPattern commandPattern = new CommandPattern();
+
+        System.out.println("Template Design Patterns");
+        TemplatePattern templatePattern = new TemplatePattern();
+
+        System.out.println("Visitor Design Patterns");
+        VisitorPattern visitorPattern = new VisitorPattern();
 
     }
 
