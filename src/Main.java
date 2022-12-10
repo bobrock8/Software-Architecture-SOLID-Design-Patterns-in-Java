@@ -19,7 +19,7 @@ public class Main {
         // InterfaceSegregation interfaceSegregation = new InterfaceSegregation();
         // DependencyInversion dependencyInversion = new DependencyInversion();
 
-        System.out.println("Design Patterns");
+        // System.out.println("Design Patterns");
 
         // System.out.println("Creational Design Patterns");
 
