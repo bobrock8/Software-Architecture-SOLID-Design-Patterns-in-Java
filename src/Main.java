@@ -37,8 +37,8 @@ public class Main {
 
         System.out.println("Behavioral Design Patterns");
 
-        System.out.println("Strategy Design Patterns");
-        StrategyPattern strategyPattern = new StrategyPattern();
+        // System.out.println("Strategy Design Patterns");
+        // StrategyPattern strategyPattern = new StrategyPattern();
 
         System.out.println("Observer Design Patterns");
         ObserverPattern observerPattern = new ObserverPattern();
