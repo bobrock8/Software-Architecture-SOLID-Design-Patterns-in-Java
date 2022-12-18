@@ -40,8 +40,8 @@ public class Main {
         // System.out.println("Strategy Design Patterns");
         // StrategyPattern strategyPattern = new StrategyPattern();
 
-        System.out.println("Observer Design Patterns");
-        ObserverPattern observerPattern = new ObserverPattern();
+        // System.out.println("Observer Design Patterns");
+        // ObserverPattern observerPattern = new ObserverPattern();
 
         System.out.println("Command Design Patterns");
         CommandPattern commandPattern = new CommandPattern();
