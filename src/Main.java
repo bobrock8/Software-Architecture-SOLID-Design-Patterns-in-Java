@@ -1,4 +1,5 @@
 import designpatterns.behavioraldesignpatterns.commandpattern.CommandPattern;
+import designpatterns.behavioraldesignpatterns.iteratorpattern.IteratorPattern;
 import designpatterns.behavioraldesignpatterns.observerpattern.ObserverPattern;
 import designpatterns.behavioraldesignpatterns.strategypattern.StrategyPattern;
 import designpatterns.behavioraldesignpatterns.templatepattern.TemplatePattern;
@@ -43,8 +44,11 @@ public class Main {
         // System.out.println("Observer Design Patterns");
         // ObserverPattern observerPattern = new ObserverPattern();
 
-        System.out.println("Command Design Patterns");
-        CommandPattern commandPattern = new CommandPattern();
+        //System.out.println("Command Design Patterns");
+        // CommandPattern commandPattern = new CommandPattern();
+
+        System.out.println("Iterator Design Patterns");
+        IteratorPattern iteratorPattern = new IteratorPattern();
 
         System.out.println("Template Design Patterns");
         TemplatePattern templatePattern = new TemplatePattern();
