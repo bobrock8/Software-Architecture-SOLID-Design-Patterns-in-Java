@@ -54,8 +54,8 @@ public class Main {
         // System.out.println("Template Design Patterns");
         // TemplatePattern templatePattern = new TemplatePattern();
 
-        System.out.println("Null Object Design Patterns");
-        NullObjectPattern nullObjectPattern = new NullObjectPattern();
+        // System.out.println("Null Object Design Patterns");
+        // NullObjectPattern nullObjectPattern = new NullObjectPattern();
 
         System.out.println("Visitor Design Patterns");
         VisitorPattern visitorPattern = new VisitorPattern();

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f29e8c31-eb0b-4811-922e-e80946b4bd1f" name="Changes" comment="Template Design Patterns">
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/nullobjectpattern/AbstractCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/nullobjectpattern/CustomerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/nullobjectpattern/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/nullobjectpattern/NullCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/nullobjectpattern/NullObjectPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/nullobjectpattern/RealCustomer.java" afterDir="false" />
+    <list default="true" id="f29e8c31-eb0b-4811-922e-e80946b4bd1f" name="Changes" comment="Null Pointer Design Patterns">
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/Chair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/ShoppingCartVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/ShoppingItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/Table.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/VisitorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/VisitorPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designpatterns.behavioraldesignpatterns.visitorpattern" />
       <recent name="designpatterns.behavioraldesignpatterns.templatepattern" />
       <recent name="designpatterns.behavioraldesignpatterns.strategypattern" />
       <recent name="designpatterns.creationaldesignpatterns.prototypepattern" />
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672657063567</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Null Pointer Design Patterns">
+      <created>1672828565428</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672828565428</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +199,7 @@
     <MESSAGE value="Command Design Patterns" />
     <MESSAGE value="Iterator Design Patterns" />
     <MESSAGE value="Template Design Patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Template Design Patterns" />
+    <MESSAGE value="Null Pointer Design Patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Null Pointer Design Patterns" />
   </component>
 </project>
