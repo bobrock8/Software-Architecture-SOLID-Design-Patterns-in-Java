@@ -1,5 +1,6 @@
 import designpatterns.behavioraldesignpatterns.commandpattern.CommandPattern;
 import designpatterns.behavioraldesignpatterns.iteratorpattern.IteratorPattern;
+import designpatterns.behavioraldesignpatterns.nullobjectpattern.NullObjectPattern;
 import designpatterns.behavioraldesignpatterns.observerpattern.ObserverPattern;
 import designpatterns.behavioraldesignpatterns.strategypattern.StrategyPattern;
 import designpatterns.behavioraldesignpatterns.templatepattern.TemplatePattern;
@@ -50,8 +51,11 @@ public class Main {
         // System.out.println("Iterator Design Patterns");
         // IteratorPattern iteratorPattern = new IteratorPattern();
 
-        System.out.println("Template Design Patterns");
-        TemplatePattern templatePattern = new TemplatePattern();
+        // System.out.println("Template Design Patterns");
+        // TemplatePattern templatePattern = new TemplatePattern();
+
+        System.out.println("Null Object Design Patterns");
+        NullObjectPattern nullObjectPattern = new NullObjectPattern();
 
         System.out.println("Visitor Design Patterns");
         VisitorPattern visitorPattern = new VisitorPattern();
