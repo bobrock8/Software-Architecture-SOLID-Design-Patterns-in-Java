@@ -6,6 +6,7 @@ import designpatterns.behavioraldesignpatterns.strategypattern.StrategyPattern;
 import designpatterns.behavioraldesignpatterns.templatepattern.TemplatePattern;
 import designpatterns.behavioraldesignpatterns.visitorpattern.VisitorPattern;
 import designpatterns.structrualdesignpatterns.decoratorpattern.DecoratePattern;
+import designpatterns.structrualdesignpatterns.facadepattern.FacadePattern;
 
 public class Main {
 
@@ -46,7 +47,7 @@ public class Main {
         // System.out.println("Observer Design Patterns");
         // ObserverPattern observerPattern = new ObserverPattern();
 
-        //System.out.println("Command Design Patterns");
+        // System.out.println("Command Design Patterns");
         // CommandPattern commandPattern = new CommandPattern();
 
         // System.out.println("Iterator Design Patterns");
@@ -64,8 +65,11 @@ public class Main {
 
         System.out.println("Structural/Architectural Design Patterns");
 
-         System.out.println("Decorator Design Patterns");
-         DecoratePattern decoratePattern = new DecoratePattern();
+        // System.out.println("Decorator Design Patterns");
+        // DecoratePattern decoratePattern = new DecoratePattern();
+
+        System.out.println("Facade Design Patterns");
+        FacadePattern facadePattern = new FacadePattern();
     }
 
 }
