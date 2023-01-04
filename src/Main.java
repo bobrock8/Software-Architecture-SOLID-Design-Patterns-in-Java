@@ -1,3 +1,4 @@
+import designpatterns.structrualdesignpatterns.adapterpattern.AdapterPattern;
 import designpatterns.structrualdesignpatterns.flyweightpattern.FlyweightPattern;
 
 public class Main {
@@ -63,8 +64,11 @@ public class Main {
         // System.out.println("Facade Design Patterns");
         // FacadePattern facadePattern = new FacadePattern();
 
-        System.out.println("Flyweight Design Patterns");
-        FlyweightPattern flyweight = new FlyweightPattern();
+        // System.out.println("Flyweight Design Patterns");
+        // FlyweightPattern flyweight = new FlyweightPattern();
+
+        System.out.println("Adapter Design Patterns");
+        AdapterPattern adapterPattern = new AdapterPattern();
     }
 
 }

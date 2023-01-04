@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f29e8c31-eb0b-4811-922e-e80946b4bd1f" name="Changes" comment="Facade Design Patterns">
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/flyweightpattern/FlyweightPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/flyweightpattern/FlyweightSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/flyweightpattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/flyweightpattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/flyweightpattern/ShapeFactory.java" afterDir="false" />
+    <list default="true" id="f29e8c31-eb0b-4811-922e-e80946b4bd1f" name="Changes" comment="Flyweight Design Patterns">
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/adapterpattern/AdapterPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/adapterpattern/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/adapterpattern/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/adapterpattern/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/adapterpattern/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -51,11 +51,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designpatterns.structrualdesignpatterns.adapterpattern" />
       <recent name="designpatterns.structrualdesignpatterns.decoratorpattern" />
       <recent name="designpatterns.behavioraldesignpatterns.visitorpattern" />
       <recent name="designpatterns.behavioraldesignpatterns.templatepattern" />
       <recent name="designpatterns.behavioraldesignpatterns.strategypattern" />
-      <recent name="designpatterns.creationaldesignpatterns.prototypepattern" />
     </key>
   </component>
   <component name="RunManager">
@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672832785048</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Flyweight Design Patterns">
+      <created>1672834597453</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672834597453</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +230,7 @@
     <MESSAGE value="Visitor Design Patterns" />
     <MESSAGE value="DecorateDesign Patterns" />
     <MESSAGE value="Facade Design Patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Facade Design Patterns" />
+    <MESSAGE value="Flyweight Design Patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flyweight Design Patterns" />
   </component>
 </project>
