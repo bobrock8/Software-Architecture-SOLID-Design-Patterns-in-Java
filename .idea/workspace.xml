@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f29e8c31-eb0b-4811-922e-e80946b4bd1f" name="Changes" comment="DecorateDesign Patterns">
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/facadepattern/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/facadepattern/FacadePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/facadepattern/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/facadepattern/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/facadepattern/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/facadepattern/SortingManager.java" afterDir="false" />
+    <list default="true" id="f29e8c31-eb0b-4811-922e-e80946b4bd1f" name="Changes" comment="Facade Design Patterns">
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/flyweightpattern/FlyweightPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/flyweightpattern/FlyweightSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/flyweightpattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/flyweightpattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/flyweightpattern/ShapeFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -187,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672832126181</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Facade Design Patterns">
+      <created>1672832785048</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672832785048</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +222,7 @@
     <MESSAGE value="Null Pointer Design Patterns" />
     <MESSAGE value="Visitor Design Patterns" />
     <MESSAGE value="DecorateDesign Patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="DecorateDesign Patterns" />
+    <MESSAGE value="Facade Design Patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Facade Design Patterns" />
   </component>
 </project>

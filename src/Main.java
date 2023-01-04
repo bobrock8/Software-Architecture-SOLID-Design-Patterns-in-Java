@@ -1,12 +1,4 @@
-import designpatterns.behavioraldesignpatterns.commandpattern.CommandPattern;
-import designpatterns.behavioraldesignpatterns.iteratorpattern.IteratorPattern;
-import designpatterns.behavioraldesignpatterns.nullobjectpattern.NullObjectPattern;
-import designpatterns.behavioraldesignpatterns.observerpattern.ObserverPattern;
-import designpatterns.behavioraldesignpatterns.strategypattern.StrategyPattern;
-import designpatterns.behavioraldesignpatterns.templatepattern.TemplatePattern;
-import designpatterns.behavioraldesignpatterns.visitorpattern.VisitorPattern;
-import designpatterns.structrualdesignpatterns.decoratorpattern.DecoratePattern;
-import designpatterns.structrualdesignpatterns.facadepattern.FacadePattern;
+import designpatterns.structrualdesignpatterns.flyweightpattern.FlyweightPattern;
 
 public class Main {
 
@@ -68,8 +60,11 @@ public class Main {
         // System.out.println("Decorator Design Patterns");
         // DecoratePattern decoratePattern = new DecoratePattern();
 
-        System.out.println("Facade Design Patterns");
-        FacadePattern facadePattern = new FacadePattern();
+        // System.out.println("Facade Design Patterns");
+        // FacadePattern facadePattern = new FacadePattern();
+
+        System.out.println("Flyweight Design Patterns");
+        FlyweightPattern flyweight = new FlyweightPattern();
     }
 
 }
