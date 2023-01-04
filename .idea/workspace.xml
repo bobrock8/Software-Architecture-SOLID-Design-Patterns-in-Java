@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f29e8c31-eb0b-4811-922e-e80946b4bd1f" name="Changes" comment="Null Pointer Design Patterns">
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/Chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/ShoppingCartVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/ShoppingItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/Table.java" afterDir="false" />
+    <list default="true" id="f29e8c31-eb0b-4811-922e-e80946b4bd1f" name="Changes" comment="Visitor Design Patterns">
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/decoratorpattern/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/decoratorpattern/BeverageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/decoratorpattern/DecoratePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/decoratorpattern/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/decoratorpattern/PlainBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structrualdesignpatterns/decoratorpattern/Sugar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/VisitorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/behavioraldesignpatterns/visitorpattern/VisitorPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +52,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designpatterns.structrualdesignpatterns.decoratorpattern" />
       <recent name="designpatterns.behavioraldesignpatterns.visitorpattern" />
       <recent name="designpatterns.behavioraldesignpatterns.templatepattern" />
       <recent name="designpatterns.behavioraldesignpatterns.strategypattern" />
       <recent name="designpatterns.creationaldesignpatterns.prototypepattern" />
-      <recent name="designpatterns.creationaldesignpatterns.abstractfactorypattern" />
     </key>
   </component>
   <component name="RunManager">
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672828565428</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Visitor Design Patterns">
+      <created>1672830689456</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672830689456</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +207,7 @@
     <MESSAGE value="Iterator Design Patterns" />
     <MESSAGE value="Template Design Patterns" />
     <MESSAGE value="Null Pointer Design Patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Null Pointer Design Patterns" />
+    <MESSAGE value="Visitor Design Patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Visitor Design Patterns" />
   </component>
 </project>
